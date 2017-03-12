@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Liseu Universitário</string>
+    <string name="vagas">Vagas:</string>
+    <string name="solicitacaoenviada">Solicitação Enviada.</string>
 </resources>

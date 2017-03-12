@@ -99,7 +99,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View v) {
                 Button button = (Button)v;
-                button.setText("Em andamento...");
+                button.setText(R.string.solicitacaoenviada);
                 button.setBackgroundColor(YELLOW);
                 notifyDataSetChanged();
             }
