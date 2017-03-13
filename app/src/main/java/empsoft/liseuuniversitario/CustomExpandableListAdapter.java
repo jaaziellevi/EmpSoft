@@ -2,6 +2,7 @@ package empsoft.liseuuniversitario;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -18,6 +20,8 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     private List<String> expandableListTitle;
     private HashMap<String, List<String>> expandableListDetail;
     private Button buttonGenerico;
+    ArrayList<String> btnStatus = new ArrayList<> ();
+
 
 
     public CustomExpandableListAdapter(Context context, List<String> expandableListTitle,
@@ -25,6 +29,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         this.context = context;
         this.expandableListTitle = expandableListTitle;
         this.expandableListDetail = expandableListDetail;
+        fillGroupStringStates(context);
     }
 
     @Override
@@ -39,7 +44,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public View getChildView(int listPosition, final int expandedListPosition,
+    public View getChildView(final int listPosition, final int expandedListPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
         final String expandedListText = (String) getChild(listPosition, expandedListPosition);
         if (convertView == null) {
@@ -50,6 +55,19 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         TextView expandedListTextView = (TextView) convertView
                 .findViewById(R.id.expandedListItem);
         expandedListTextView.setText(expandedListText);
+
+
+        Button button = (Button) convertView.findViewById(R.id.solicitarVagaBtn);
+        button.setText(btnStatus.get(listPosition));
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnStatus.set(listPosition, v.getContext().getResources().getString(R.string.solicitacaoenviada));
+                ((Button) v).setText(R.string.solicitacaoenviada);
+            }
+        });
+
         return convertView;
     }
 
@@ -88,17 +106,6 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         listTitleTextView.setTypeface(null, Typeface.BOLD);
         listTitleTextView.setText(listTitle);
 
-        buttonGenerico = (Button) convertView.findViewById(R.id.button);
-
-        buttonGenerico.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Button button = (Button)v;
-                button.setText(R.string.solicitacaoenviada);
-                notifyDataSetChanged();
-            }
-        });
-
         return convertView;
     }
 
@@ -112,5 +119,11 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public boolean isChildSelectable(int listPosition, int expandedListPosition) {
         return true;
+    }
+
+    private void fillGroupStringStates (Context context) {
+        for(int i = 0; i < getGroupCount(); i++) {
+            btnStatus.add(context.getString(R.string.solicitarvaga));
+        }
     }
 }

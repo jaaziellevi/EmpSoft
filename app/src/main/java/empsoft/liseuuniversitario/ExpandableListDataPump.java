@@ -17,10 +17,8 @@ public class ExpandableListDataPump {
 
         for (Vaga v : vagasList) {
             List<String> descricaoVaga = new ArrayList<>();
-            descricaoVaga.add(v.getDescricao());
-            String formatada = formatDate(v.getHorario());
-            descricaoVaga.add("Horário: " + formatDate(v.getHorario()));
-
+            descricaoVaga.add(v.getDescricao() + "\n\n"
+                    + "Horário: " + formatDate(v.getHorario()));
             expandableListDetail.put(v.getCargo(), descricaoVaga);
         }
         return expandableListDetail;
@@ -31,6 +29,6 @@ public class ExpandableListDataPump {
         SimpleDateFormat formatDia = new SimpleDateFormat("dd/MM/yyyy");
         String horas = formatHoras.format(date);
         String dias = formatDia.format(date);
-        return horas + " do dia " + dias;
+        return dias + " às " + dias;
     }
 }
