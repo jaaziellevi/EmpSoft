@@ -1,11 +1,5 @@
-package empsoft.liseuuniversitrio;
+package empsoft.liseuuniversitario;
 
-/**
- * Created by Arthur on 11/03/2017.
- */
-
-import java.util.HashMap;
-import java.util.List;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -15,7 +9,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import static android.graphics.Color.YELLOW;
+import java.util.HashMap;
+import java.util.List;
 
 public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
@@ -88,7 +83,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
                     getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.list_group, null);
         }
-        TextView listTitleTextView = (TextView) convertView
+        final TextView listTitleTextView = (TextView) convertView
                 .findViewById(R.id.listTitle);
         listTitleTextView.setTypeface(null, Typeface.BOLD);
         listTitleTextView.setText(listTitle);
@@ -100,10 +95,10 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             public void onClick(View v) {
                 Button button = (Button)v;
                 button.setText(R.string.solicitacaoenviada);
-                button.setBackgroundColor(YELLOW);
                 notifyDataSetChanged();
             }
         });
+
         return convertView;
     }
 
@@ -111,6 +106,8 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     public boolean hasStableIds() {
         return false;
     }
+
+
 
     @Override
     public boolean isChildSelectable(int listPosition, int expandedListPosition) {

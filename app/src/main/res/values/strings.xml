@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Liseu Universitário</string>
+    <string name="action_settings">Configurações</string>
     <string name="vagas">Vagas:</string>
     <string name="solicitacaoenviada">Solicitação Enviada.</string>
+    <string name="notificacoes_string">Notificações</string>
+    <string name="vagas_tab_title">Vagas</string>
 </resources>

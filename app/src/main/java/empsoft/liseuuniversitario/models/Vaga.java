@@ -1,10 +1,6 @@
-package empsoft.liseuuniversitrio.models;
+package empsoft.liseuuniversitario.models;
 
 import java.util.Date;
-
-/**
- * Created by Arthur on 11/03/2017.
- */
 
 public class Vaga {
 

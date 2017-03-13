@@ -16,6 +16,7 @@
             android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
             android:paddingTop="10dp"
             android:text="Filler"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:focusable="false"
             android:textColor="@android:color/black" />
 

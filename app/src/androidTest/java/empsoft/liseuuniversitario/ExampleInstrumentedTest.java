@@ -1,4 +1,4 @@
-package empsoft.liseuuniversitrio;
+package empsoft.liseuuniversitario;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("empsoft.liseuuniversitrio", appContext.getPackageName());
+        assertEquals("empsoft.liseuuniversitario", appContext.getPackageName());
     }
 }

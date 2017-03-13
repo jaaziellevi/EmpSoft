@@ -1,4 +1,4 @@
-package empsoft.liseuuniversitrio;
+package empsoft.liseuuniversitario;
 
 import org.junit.Test;
 
