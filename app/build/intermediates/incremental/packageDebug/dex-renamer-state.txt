@@ -1,0 +1,7 @@
+#Wed Mar 15 15:36:10 GMT-03:00 2017
+base.0=D\:\\Documents\\WORK4KITS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_35edfda04a1c11225e93fabec7131ca2e2f7660e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Documents\\WORK4KITS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_aa791a83de4728b6758e697c0f9099cbafcd05bd\\classes.dex
+base.1=D\:\\Documents\\WORK4KITS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_aa791a83de4728b6758e697c0f9099cbafcd05bd
+file.0=D\:\\Documents\\WORK4KITS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_35edfda04a1c11225e93fabec7131ca2e2f7660e\\classes.dex

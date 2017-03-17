@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name">Liseu Universitário</string>
-    <string name="action_settings">Configurações</string>
-    <string name="vagas">Vagas:</string>
-    <string name="solicitarvaga">Solicitar vaga.</string>
-    <string name="solicitacaoenviada">Solicitação enviada.</string>
-    <string name="notificacoes_string">Notificações</string>
-    <string name="vagas_tab_title">Vagas</string>
+    <string name="app_name">WORK4KITS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
