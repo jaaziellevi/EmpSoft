@@ -1,11 +1,14 @@
 package com.jaaziel.work4kits;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,14 +16,14 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class ExpandableListAdapter extends BaseExpandableListAdapter {
+public class 	ExpandableListAdapter extends BaseExpandableListAdapter {
 
 	private Context mContex;
 	private List<String> mListDataHeader; // header titles
 	// child data in format of header title, child title
 	private HashMap<String, List<String>> mListDataChild;
 	private LayoutInflater mInflater;
-
+	private List<Integer> intList;
 
 
 	public ExpandableListAdapter(Context context, List<String> listDataHeader,
@@ -29,6 +32,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 		mListDataHeader = listDataHeader;
 		mListDataChild = listChildData;
 		mInflater = LayoutInflater.from(context);
+		intList = Arrays.asList(0,0,0,0,0,0,0);
 	}
 
 	@Override
@@ -114,9 +118,19 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 			textView.measure(0, 0);
 			totalHeight += textView.getMeasuredHeight();
 		}
+
 		gridView.SetHeight(totalHeight);
 		return convertView;
 	}
+
+	private void setChild(int groupPosition, int count) {
+		intList.set(groupPosition, count);
+	}
+
+	public int getCount(int groupPosition) {
+		return intList.get(groupPosition);
+	}
+
 
 	@Override
 	public boolean isChildSelectable(int groupPosition, int childPosition) {

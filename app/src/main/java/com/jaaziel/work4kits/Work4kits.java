@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ExpandableListView;
+import android.widget.GridView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -23,6 +25,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Work4kits extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -73,6 +76,12 @@ public class Work4kits extends AppCompatActivity
         mExpandablelistView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
             @Override
             public void onGroupExpand(int i) {
+                String[] d = IOSingleton.Instance().getJobs((String) mExpandableListAdapter.getGroup(i));
+                Log.d("T", String.valueOf(d.length));
+                if (d.length <= 1) {
+                    mExpandablelistView.collapseGroup(i);
+                    Toast.makeText(Work4kits.this, "Não há vaga para esse dia", Toast.LENGTH_SHORT).show();
+                }
                 if (lastExpandedPosition != -1
                         && i != lastExpandedPosition) {
                     mExpandablelistView.collapseGroup(lastExpandedPosition);
@@ -80,6 +89,7 @@ public class Work4kits extends AppCompatActivity
                 lastExpandedPosition = i;
             }
         });
+
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);

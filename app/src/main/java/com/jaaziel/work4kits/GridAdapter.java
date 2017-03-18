@@ -1,15 +1,21 @@
 package com.jaaziel.work4kits;
 
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.media.Image;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.app.AlertDialog;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.BaseAdapter;
+import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -46,7 +52,7 @@ public class GridAdapter extends BaseAdapter {
 	}
 
 	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
+	public View getView(int position, View convertView, final ViewGroup parent) {
 
 		ViewHolder holder = null;
 
@@ -66,6 +72,7 @@ public class GridAdapter extends BaseAdapter {
 
 
         final Map<String, String> details = IOSingleton.Instance().getJobDetails(mMobileValues[position]);
+
         if (details != null) {
             holder.text.setText(details.get("Vaga"));
             int imagem = 0;
@@ -75,22 +82,12 @@ public class GridAdapter extends BaseAdapter {
             holder.imageView.setImageDrawable(ResourcesCompat.getDrawable(convertView.getResources(), imagem, null));
         }
 
-        //Fazer um dialog simples ou custom para status livre ou solicitado
-        convertView.setOnClickListener(new View.OnClickListener() {
+		convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog alertDialog = new AlertDialog.Builder(mContext).create();
-                alertDialog.setTitle(details.get("Vaga"));
-                alertDialog.setMessage("Status da vaga: " + details.get("Status"));
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        });
-                alertDialog.show();
-            }
-        });
+                showDialog(mContext, details);
+			}
+		});
 
 		return convertView;
 	}
@@ -99,4 +96,45 @@ public class GridAdapter extends BaseAdapter {
         ImageView imageView;
 		TextView text;
 	}
+
+    public void showDialog(final Context context, final Map<String,String> details){
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.vagadiallog);
+
+
+        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+        lp.copyFrom(dialog.getWindow().getAttributes());
+        lp.width = WindowManager.LayoutParams.MATCH_PARENT;
+        lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+        dialog.getWindow().setAttributes(lp);
+
+        final String vagaId = details.get("id");
+        String nomeVaga = details.get("Vaga");
+        String descricao = details.get("Descrição");
+        String horario = details.get("Horário");
+
+
+        ((TextView) dialog.findViewById(R.id.vagaNome)).setText("Vaga: " + nomeVaga);
+        ((TextView) dialog.findViewById(R.id.vagaDescricao)).setText("Descrição: " + descricao);
+        ((TextView) dialog.findViewById(R.id.vagaHorario)).setText("Horário: " + horario);
+
+        dialog.findViewById(R.id.textView2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RESTUtil ut = new RESTUtil(Volley.newRequestQueue(context), Request.Method.PATCH, vagaId);
+                IOSingleton.Instance().changeStatus(vagaId);
+                notifyDataSetChanged();
+                dialog.dismiss();
+            }
+        });
+
+        dialog.findViewById(R.id.textView3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+        dialog.show();
+
+    }
 }

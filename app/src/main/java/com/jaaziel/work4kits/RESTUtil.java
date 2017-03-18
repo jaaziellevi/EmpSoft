@@ -20,7 +20,6 @@ public class RESTUtil {
     private static final String ENDPOINT = "https://empsoftserver.herokuapp.com/solicitacoes";
 
     private RequestQueue requestQueue;
-    private ProgressDialog ringProgressDialog;
 
     public RESTUtil(RequestQueue requestQueue, int reqMethod, Context context) {
 
@@ -31,24 +30,34 @@ public class RESTUtil {
         }
     }
 
-    public RESTUtil(RequestQueue requestQueue, int reqMethod, String usuario, String vaga) {
+    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id) {
 
         this.requestQueue = requestQueue;
 
-        if (reqMethod == Request.Method.POST) {
-            postSolicitacao(usuario, vaga);
+        if (reqMethod == Request.Method.PATCH) {
+            postSolicitacao(id);
         }
     }
 
 
 
-        private void postSolicitacao(final String usuario, final String vaga) {
-        StringRequest request = new StringRequest(Request.Method.POST, ENDPOINT,onPostsLoaded, onPostsError) {
+        private void postSolicitacao(final String id) {
+        StringRequest request = new StringRequest(Request.Method.PATCH, ENDPOINT +"/"+id, onPatch, onPostsError) {
+
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
-                params.put(vaga, "Pendente");
+                params.put("Status", "Pendente");
                 return params;
+            }
+
+            @Override
+            public byte[] getBody() throws AuthFailureError {
+                Map<String, String> params = getParams();
+                if (params != null && params.size() > 0) {
+                    return IOSingleton.encodeParameters(params, getParamsEncoding());
+                }
+                return null;
             }
         };
         requestQueue.add(request);
@@ -59,6 +68,16 @@ public class RESTUtil {
         StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
         requestQueue.add(request);
     }
+
+    private final Response.Listener<String> onPatch = new Response.Listener<String>() {
+        @Override
+        public void onResponse(String response) {
+            StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
+            requestQueue.add(request);
+        }
+    };
+
+
 
     private final Response.Listener<String> onPostsLoaded = new Response.Listener<String>() {
         @Override
@@ -74,7 +93,6 @@ public class RESTUtil {
             Log.e("PostActivity", error.toString());
         }
     };
-
 
 
 }
