@@ -1,6 +1,5 @@
 package com.jaaziel.work4kits;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.util.Log;
 

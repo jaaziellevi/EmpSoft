@@ -1,7 +1,5 @@
 package com.jaaziel.work4kits;
 
-import android.util.Log;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -9,8 +7,11 @@ import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static android.R.attr.id;
 
 /**
  * Created by Arthur on 17/03/2017.
@@ -20,7 +21,10 @@ public class IOSingleton {
 
     private static IOSingleton instance;
     private List<Map<String, String>> response;
-    //no outer class can initialize this class's object
+    private List<String> listDataHeader;
+    private HashMap<String, List<String>> listDataChild;
+    private List<Map<String, String>> vagasPendentes;
+
     private IOSingleton() {}
 
     public static IOSingleton Instance()
@@ -102,4 +106,29 @@ public class IOSingleton {
     }
 
 
+    public HashMap<String, List<String>> getListDataChild() {
+        return listDataChild;
+    }
+
+    public void setListDataChild(HashMap<String, List<String>> listDataChild) {
+        this.listDataChild = listDataChild;
+    }
+
+    public List<String> getListDataHeader() {
+        return listDataHeader;
+    }
+
+    public void setListDataHeader(List<String> listDataHeader) {
+        this.listDataHeader = listDataHeader;
+    }
+
+    public List<String> getVagasPendentes() {
+        List<String> list = new ArrayList<>();
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("Status").equals("Pendente")) {
+                list.add(m.get("Vaga"));
+            }
+        }
+        return list;
+    }
 }
