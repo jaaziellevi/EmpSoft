@@ -13,8 +13,9 @@
     tools:context="com.jaaziel.work4kits.Work4kits"
     tools:showIn="@layout/app_bar_work4kits">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ExpandableListView
+        android:id="@+id/expandablelistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>
