@@ -2,6 +2,7 @@ package com.jaaziel.work4kits;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -108,14 +109,14 @@ public class 	ExpandableListAdapter extends BaseExpandableListAdapter {
         gridView.setAdapter(adapter);// Adapter
 
         int totalHeight = 0;
-		for (int size = 0; size < adapter.getCount(); size++) {
-			RelativeLayout relativeLayout = (RelativeLayout) adapter.getView(
-					size, null, gridView);
-			TextView textView = (TextView) relativeLayout.getChildAt(0);
-			textView.measure(0, 0);
-			totalHeight += textView.getMeasuredHeight();
-		}
+        RelativeLayout relativeLayout = (RelativeLayout) adapter.getView(
+					0, null, gridView);
 
+        for (int i = 0; i < relativeLayout.getChildCount(); i++ ){
+            TextView textView = (TextView) relativeLayout.getChildAt(i);
+            textView.measure(0, 0);
+            totalHeight += textView.getMeasuredHeight();
+        }
 		gridView.SetHeight(totalHeight);
 		return convertView;
 	}

@@ -3,7 +3,7 @@ package com.jaaziel.work4kits;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -85,20 +85,18 @@ public class Work4kits extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        Fragment newFragment;
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        Fragment newFragment = null;
 
         if (id == R.id.nav_camera) {
             newFragment = new EmpresarioFragment();
-            transaction.replace(R.id.content_main, newFragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
         }
         else if (id == R.id.nav_gallery) {
             newFragment = new UsuarioComumFragment();
-            transaction.replace(R.id.content_main, newFragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        if (newFragment != null) {
+            fragmentManager.beginTransaction().replace(R.id.content_main, newFragment).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

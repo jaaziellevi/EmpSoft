@@ -1,9 +1,11 @@
 package com.jaaziel.work4kits;
 
 import android.content.Context;
-import android.util.Log;
+import android.support.v7.app.AlertDialog;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkError;
+import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -19,10 +21,12 @@ public class RESTUtil {
     private static final String ENDPOINT = "https://empsoftserver.herokuapp.com/solicitacoes";
 
     private RequestQueue requestQueue;
+    private Context context;
 
     public RESTUtil(RequestQueue requestQueue, int reqMethod, Context context) {
 
         this.requestQueue = requestQueue;
+        this.context = context;
 
         if (reqMethod == Request.Method.GET) {
             fetchSolicitacoes(context);
@@ -46,7 +50,7 @@ public class RESTUtil {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
-                params.put("Status", "Pendente");
+                params.put("Status", "Solicitação enviada.");
                 return params;
             }
 
@@ -89,9 +93,23 @@ public class RESTUtil {
     private final Response.ErrorListener onPostsError = new Response.ErrorListener() {
         @Override
         public void onErrorResponse(VolleyError error) {
-            Log.e("PostActivity", error.toString());
+            String mensagem = "";
+            if (error instanceof NoConnectionError){
+                mensagem = "Não há conexão disponível, tente novamente. Lista ficará vazia";
+                showDialog(mensagem);
+            }
+            else if (error instanceof NetworkError) {
+                mensagem = "Erro na rede, tente novamente. Lista ficará vazia";
+                showDialog(mensagem);
+            }
         }
     };
+
+    private void showDialog(String mensagem) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setMessage(mensagem);
+        builder.show();
+    }
 
 
 }

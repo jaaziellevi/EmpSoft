@@ -20,7 +20,7 @@ import static android.R.attr.id;
 public class IOSingleton {
 
     private static IOSingleton instance;
-    private List<Map<String, String>> response;
+    private List<Map<String, String>> response = new ArrayList<Map<String,String>>();
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listDataChild;
     private List<Map<String, String>> vagasPendentes;
@@ -34,6 +34,7 @@ public class IOSingleton {
         if (instance == null)
         {
             instance = new IOSingleton();
+            Map<String,String> map = new HashMap<>();
         }
         return instance;
     }
@@ -83,7 +84,7 @@ public class IOSingleton {
     public void changeStatus(String id) {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(id)) {
-                m.put("Status", "Pendente");
+                m.put("Status", "Solicitação Enviada");
             }
         }
     }
@@ -125,7 +126,7 @@ public class IOSingleton {
     public List<String> getVagasPendentes() {
         List<String> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Pendente")) {
+            if (m.get("Status").equals("Solicitação ")) {
                 list.add(m.get("Vaga"));
             }
         }

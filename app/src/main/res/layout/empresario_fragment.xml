@@ -12,12 +12,10 @@
 
     <GridView
         android:id="@+id/gridView"
-        android:numColumns="3"
         android:gravity="center"
-        android:columnWidth="50dp"
+        android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

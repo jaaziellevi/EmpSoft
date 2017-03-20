@@ -54,8 +54,9 @@ public class GridAdapter extends BaseAdapter {
 			convertView = inflater.inflate(R.layout.grid_item, parent, false);
 			holder = new ViewHolder();
 
-			holder.text = (TextView) convertView.findViewById(R.id.label);
-            holder.imageView = (ImageView) convertView.findViewById(R.id.imageStatus);
+			holder.titulo = (TextView) convertView.findViewById(R.id.label);
+            holder.status = (TextView) convertView.findViewById(R.id.status);
+            holder.horario = (TextView) convertView.findViewById(R.id.horario);
 
 			convertView.setTag(holder);
 		} else {
@@ -66,27 +67,26 @@ public class GridAdapter extends BaseAdapter {
         final Map<String, String> details = IOSingleton.Instance().getJobDetails(mMobileValues[position]);
 
         if (details != null) {
-            holder.text.setText(details.get("Vaga"));
-            int imagem = 0;
-            if (details.get("Status").equals("Livre")) {
-                imagem = R.drawable.thumb_green_48;
-            } else imagem = R.drawable.thumb_yellow_48;
-            holder.imageView.setImageDrawable(ResourcesCompat.getDrawable(convertView.getResources(), imagem, null));
+            holder.titulo.setText(details.get("Vaga"));
+            holder.status.setText("Status: "+ details.get("Status"));
+            holder.horario.setText("Horário: "+ details.get("Horário"));
         }
 
-		convertView.setOnClickListener(new View.OnClickListener() {
+        convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (details != null)
                 showDialog(mContext, details);
-			}
-		});
+            }
+        });
 
 		return convertView;
 	}
 
 	static class ViewHolder {
-        ImageView imageView;
-		TextView text;
+		TextView titulo;
+        TextView status;
+        TextView horario;
 	}
 
     public void showDialog(final Context context, final Map<String,String> details){
