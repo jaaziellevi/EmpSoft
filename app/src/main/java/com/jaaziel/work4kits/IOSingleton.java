@@ -84,7 +84,8 @@ public class IOSingleton {
     public void changeStatus(String id) {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(id)) {
-                m.put("Status", "Solicitação Enviada");
+                m.put("Status", "Solicitação enviada.");
+                m.put("Usuário", "Usuário Teste");
             }
         }
     }
@@ -123,13 +124,28 @@ public class IOSingleton {
         this.listDataHeader = listDataHeader;
     }
 
-    public List<String> getVagasPendentes() {
-        List<String> list = new ArrayList<>();
+    public List<Map<String, String>> getVagasPendentes() {
+        List<Map<String,String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Solicitação enviada.")) {
-                list.add(m.get("Vaga"));
-            }
+            if (m.get("Status").equals("Solicitação enviada."))
+            list.add(m);
         }
         return list;
+    }
+
+    public void aceitaVaga(String id) {
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("id").equals(id)) {
+                m.put("Status", "Aprovado.");
+            }
+        }
+    }
+
+    public void rejeitaVaga(String id) {
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("id").equals(id)) {
+                m.put("Status", "Rejeitado.");
+            }
+        }
     }
 }

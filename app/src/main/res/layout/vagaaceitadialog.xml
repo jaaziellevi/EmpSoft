@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/vagaAceitaVaga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/vagaAceitaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <Button
+        android:id="@+id/vagaAceitaOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceita" />
+
+    <Button
+        android:id="@+id/vagaAceitaRecusa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rejeita" />
+
+</LinearLayout>

@@ -22,6 +22,7 @@ public class RESTUtil {
 
     private RequestQueue requestQueue;
     private Context context;
+    private AlertDialog.Builder builder;
 
     public RESTUtil(RequestQueue requestQueue, int reqMethod, Context context) {
 
@@ -33,24 +34,61 @@ public class RESTUtil {
         }
     }
 
-    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id) {
+    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id, Context context) {
 
         this.requestQueue = requestQueue;
+        this.context = context;
 
         if (reqMethod == Request.Method.PATCH) {
             postSolicitacao(id);
         }
     }
 
+    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id, boolean b, Context context) {
+
+        this.requestQueue = requestQueue;
+        this.context = context;
+
+        if (reqMethod == Request.Method.PATCH) {
+            notificaVaga(id, b);
+        }
+    }
+
+    private void notificaVaga(String id, final boolean b) {
+        StringRequest request = new StringRequest(Request.Method.PATCH, ENDPOINT +"/"+id, onPatch, onPostsError) {
+
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> params = new HashMap<>();
+                if (b) {
+                    params.put("Status", "Aprovado.");
+                } else {
+                    params.put("Status", "Rejeitado.");
+                }
+                return params;
+            }
+
+            @Override
+            public byte[] getBody() throws AuthFailureError {
+                Map<String, String> params = getParams();
+                if (params != null && params.size() > 0) {
+                    return IOSingleton.encodeParameters(params, getParamsEncoding());
+                }
+                return null;
+            }
+        };
+        requestQueue.add(request);
+    }
 
 
-        private void postSolicitacao(final String id) {
+    private void postSolicitacao(final String id) {
         StringRequest request = new StringRequest(Request.Method.PATCH, ENDPOINT +"/"+id, onPatch, onPostsError) {
 
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
                 params.put("Status", "Solicitação enviada.");
+                params.put("Usuário", "Usuário Teste");
                 return params;
             }
 
@@ -95,20 +133,22 @@ public class RESTUtil {
         public void onErrorResponse(VolleyError error) {
             String mensagem = "";
             if (error instanceof NoConnectionError){
-                mensagem = "Não há conexão disponível, tente novamente. Lista ficará vazia";
+                mensagem = "Não há conexão disponível, tente novamente.";
                 showDialog(mensagem);
             }
             else if (error instanceof NetworkError) {
-                mensagem = "Erro na rede, tente novamente. Lista ficará vazia";
+                mensagem = "Erro na rede, tente novamente.";
                 showDialog(mensagem);
             }
         }
     };
 
     private void showDialog(String mensagem) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setMessage(mensagem);
-        builder.show();
+        if (builder == null) {
+            builder = new AlertDialog.Builder(context);
+            builder.setMessage(mensagem);
+            builder.show();
+        }
     }
 
 

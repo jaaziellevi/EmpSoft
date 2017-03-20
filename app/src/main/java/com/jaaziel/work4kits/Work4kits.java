@@ -11,6 +11,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.toolbox.Volley;
@@ -25,6 +29,7 @@ public class Work4kits extends AppCompatActivity
 
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listDataChild;
+    private ImageView refreshView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,7 @@ public class Work4kits extends AppCompatActivity
 
 
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -46,6 +52,17 @@ public class Work4kits extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        refreshView = (ImageView) findViewById(R.id.imageView2);
+
+        refreshView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Work4kits.this, "Atualizando...", Toast.LENGTH_LONG).show();
+                v.startAnimation(AnimationUtils.loadAnimation(Work4kits.this, R.anim.anim));
+                prepareListData();
+            }
+        });
     }
 
     @Override

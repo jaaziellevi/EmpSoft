@@ -74,7 +74,7 @@ public class GridAdapter extends BaseAdapter {
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (details != null)
+                if (details != null && details.get("Status").equals("Livre"))
                 showDialog(mContext, details, parent);
             }
         });
@@ -96,24 +96,26 @@ public class GridAdapter extends BaseAdapter {
 
         WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
         lp.copyFrom(dialog.getWindow().getAttributes());
-        lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-        lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+        lp.width = WindowManager.LayoutParams.WRAP_CONTENT;
+        lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
         dialog.getWindow().setAttributes(lp);
 
         final String vagaId = details.get("id");
         String nomeVaga = details.get("Vaga");
         String descricao = details.get("Descrição");
         String horario = details.get("Horário");
+        String empresa = details.get("Empresa");
 
 
         ((TextView) dialog.findViewById(R.id.vagaNome)).setText("Vaga: " + nomeVaga);
-        ((TextView) dialog.findViewById(R.id.vagaDescricao)).setText("Descrição: " + descricao);
+        ((TextView) dialog.findViewById(R.id.vagaEmpresa)).setText("Empresa: " + empresa);
         ((TextView) dialog.findViewById(R.id.vagaHorario)).setText("Horário: " + horario);
+        ((TextView) dialog.findViewById(R.id.vagaDescricao)).setText("Descrição: " + descricao);
 
-        dialog.findViewById(R.id.textView2).setOnClickListener(new View.OnClickListener() {
+        dialog.findViewById(R.id.vagaAceita).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                RESTUtil ut = new RESTUtil(Volley.newRequestQueue(context), Request.Method.PATCH, vagaId);
+                RESTUtil ut = new RESTUtil(Volley.newRequestQueue(context), Request.Method.PATCH, vagaId, context);
                 IOSingleton.Instance().changeStatus(vagaId);
                 notifyDataSetChanged();
                 ((GridView) parent).invalidateViews();
@@ -121,7 +123,7 @@ public class GridAdapter extends BaseAdapter {
             }
         });
 
-        dialog.findViewById(R.id.textView3).setOnClickListener(new View.OnClickListener() {
+        dialog.findViewById(R.id.vagaRejeita).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
