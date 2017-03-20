@@ -117,7 +117,7 @@ public class 	ExpandableListAdapter extends BaseExpandableListAdapter {
             textView.measure(0, 0);
             totalHeight += textView.getMeasuredHeight();
         }
-		gridView.SetHeight(totalHeight);
+		gridView.SetHeight(totalHeight * (gridView.getCount()/2));
 		return convertView;
 	}
 

@@ -126,7 +126,7 @@ public class IOSingleton {
     public List<String> getVagasPendentes() {
         List<String> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Solicitação ")) {
+            if (m.get("Status").equals("Solicitação enviada.")) {
                 list.add(m.get("Vaga"));
             }
         }
