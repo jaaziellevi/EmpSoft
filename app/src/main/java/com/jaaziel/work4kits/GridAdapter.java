@@ -2,13 +2,12 @@ package com.jaaziel.work4kits;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
+import android.widget.GridView;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -76,7 +75,7 @@ public class GridAdapter extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 if (details != null)
-                showDialog(mContext, details);
+                showDialog(mContext, details, parent);
             }
         });
 
@@ -89,9 +88,10 @@ public class GridAdapter extends BaseAdapter {
         TextView horario;
 	}
 
-    public void showDialog(final Context context, final Map<String,String> details){
+    public void showDialog(final Context context, final Map<String, String> details, final ViewGroup parent){
         final Dialog dialog = new Dialog(context);
         dialog.setContentView(R.layout.vagadiallog);
+
 
 
         WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
@@ -116,6 +116,7 @@ public class GridAdapter extends BaseAdapter {
                 RESTUtil ut = new RESTUtil(Volley.newRequestQueue(context), Request.Method.PATCH, vagaId);
                 IOSingleton.Instance().changeStatus(vagaId);
                 notifyDataSetChanged();
+                ((GridView) parent).invalidateViews();
                 dialog.dismiss();
             }
         });
