@@ -20,27 +20,28 @@ import static android.R.attr.id;
 public class IOSingleton {
 
     private static IOSingleton instance;
-    private List<Map<String, String>> response = new ArrayList<Map<String,String>>();
+    private List<Map<String, String>> response = new ArrayList<Map<String, String>>();
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listDataChild;
     private List<Map<String, String>> vagasPendentes;
+    private final int NOTIFICATION_CODE = 999;
 
-    private IOSingleton() {}
+    private IOSingleton() {
+    }
 
-    public static IOSingleton Instance()
-    {
+    public static IOSingleton Instance() {
         //if no instance is initialized yet then create new instance
         //else return stored instance
-        if (instance == null)
-        {
+        if (instance == null) {
             instance = new IOSingleton();
-            Map<String,String> map = new HashMap<>();
+            Map<String, String> map = new HashMap<>();
         }
         return instance;
     }
 
     public void saveResponse(String response) {
-        Type type = new TypeToken<List<Map<String, String>>>(){}.getType();
+        Type type = new TypeToken<List<Map<String, String>>>() {
+        }.getType();
         Gson gson = new Gson();
         List<Map<String, String>> responseJson = gson.fromJson(response, type);
         this.response = responseJson;
@@ -50,9 +51,9 @@ public class IOSingleton {
         return response;
     }
 
-    public String[] getJobs (String diaDaSemana) {
+    public String[] getJobs(String diaDaSemana) {
         List<String> list = new ArrayList<>();
-        for (Map<String,String> m : getResponse()) {
+        for (Map<String, String> m : getResponse()) {
             if (m.get("DiaDaSemana").equals(diaDaSemana)) {
                 list.add(m.get("id"));
             }
@@ -60,19 +61,19 @@ public class IOSingleton {
         if (list.size() % 2 != 0) {
             list.add("");
         }
-        String[] id  = list.toArray(new String[0]);
+        String[] id = list.toArray(new String[0]);
         return id;
     }
 
     public List<String> getDays() {
         List<String> list = new ArrayList<>();
-        for (Map<String,String> m : getResponse()) {
+        for (Map<String, String> m : getResponse()) {
             list.add(m.get("DiaDaSemana"));
         }
         return list;
     }
 
-    public  Map<String, String> getJobDetails(String id) {
+    public Map<String, String> getJobDetails(String id) {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(id)) {
                 return m;
@@ -99,7 +100,7 @@ public class IOSingleton {
                 encodedParams.append(URLEncoder.encode(entry.getValue(), paramsEncoding));
                 encodedParams.append('&');
             }
-            encodedParams.replace(encodedParams.length()-1, encodedParams.length(), "");
+            encodedParams.replace(encodedParams.length() - 1, encodedParams.length(), "");
 
             return encodedParams.toString().getBytes(paramsEncoding);
         } catch (UnsupportedEncodingException uee) {
@@ -125,10 +126,10 @@ public class IOSingleton {
     }
 
     public List<Map<String, String>> getVagasPendentes() {
-        List<Map<String,String>> list = new ArrayList<>();
+        List<Map<String, String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
             if (m.get("Status").equals("Solicitação enviada."))
-            list.add(m);
+                list.add(m);
         }
         return list;
     }
@@ -147,5 +148,9 @@ public class IOSingleton {
                 m.put("Status", "Rejeitado.");
             }
         }
+    }
+
+    public int getNOTIFICATION_CODE() {
+        return NOTIFICATION_CODE;
     }
 }
