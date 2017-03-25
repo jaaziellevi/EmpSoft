@@ -21,8 +21,6 @@ public class GridAdapter extends BaseAdapter {
 	private final String[] mMobileValues;
 
     public GridAdapter(Context context, String[] mobileValues) {
-        RESTUtil ut = new RESTUtil(Volley.newRequestQueue(context), Request.Method.GET, context);
-
         mContext = context;
 		mMobileValues = mobileValues;
     }

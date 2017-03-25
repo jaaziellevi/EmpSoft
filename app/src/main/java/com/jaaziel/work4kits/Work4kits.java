@@ -1,5 +1,7 @@
 package com.jaaziel.work4kits;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -34,7 +36,7 @@ public class Work4kits extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        RESTUtil ut = new RESTUtil(Volley.newRequestQueue(Work4kits.this), Request.Method.GET, Work4kits.this);
+
         prepareListData();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_work4kits);
@@ -60,12 +62,6 @@ public class Work4kits extends AppCompatActivity
                 Toast.makeText(Work4kits.this, "Atualizando...", Toast.LENGTH_LONG).show();
                 v.startAnimation(AnimationUtils.loadAnimation(Work4kits.this, R.anim.anim));
                 prepareListData();
-                Fragment frg = null;
-                frg = getSupportFragmentManager().findFragmentByTag("Fragment");
-                final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.detach(frg);
-                ft.attach(frg);
-                ft.commit();
             }
         });
     }

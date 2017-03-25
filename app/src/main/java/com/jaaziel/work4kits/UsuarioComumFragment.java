@@ -59,7 +59,6 @@ public class UsuarioComumFragment extends Fragment {
             @Override
             public void onGroupExpand(int i) {
                 String[] d = IOSingleton.Instance().getJobs((String) mExpandableListAdapter.getGroup(i));
-                Log.d("T", String.valueOf(d.length));
                 if (d.length <= 1) {
                     mExpandablelistView.collapseGroup(i);
                     Toast.makeText(getContext(), "Não há vaga para esse dia", Toast.LENGTH_SHORT).show();

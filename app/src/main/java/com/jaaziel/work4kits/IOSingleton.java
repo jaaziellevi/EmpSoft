@@ -1,5 +1,8 @@
 package com.jaaziel.work4kits;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -10,8 +13,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static android.R.attr.id;
 
 /**
  * Created by Arthur on 17/03/2017.
@@ -24,7 +25,9 @@ public class IOSingleton {
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listDataChild;
     private List<Map<String, String>> vagasPendentes;
+    private String pureResponse;
     private final int NOTIFICATION_CODE = 999;
+    private boolean mudanca;
 
     private IOSingleton() {
     }
@@ -40,16 +43,22 @@ public class IOSingleton {
     }
 
     public void saveResponse(String response) {
+        this.pureResponse = response;
         Type type = new TypeToken<List<Map<String, String>>>() {
         }.getType();
         Gson gson = new Gson();
         List<Map<String, String>> responseJson = gson.fromJson(response, type);
+
+
         this.response = responseJson;
     }
 
     public List<Map<String, String>> getResponse() {
         return response;
     }
+
+    public String getPureResponse() { return pureResponse; }
+
 
     public String[] getJobs(String diaDaSemana) {
         List<String> list = new ArrayList<>();
@@ -152,5 +161,13 @@ public class IOSingleton {
 
     public int getNOTIFICATION_CODE() {
         return NOTIFICATION_CODE;
+    }
+
+    public void mudanca(boolean mudanca) {
+        this.mudanca = mudanca;
+    }
+
+    public boolean temMudanca() {
+        return mudanca;
     }
 }

@@ -5,6 +5,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import java.util.Calendar;
 
@@ -17,6 +18,7 @@ public class ServiceStarter extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         createNewService(context);
+        Log.d("Boot", "BOOT");
     }
 
     private void createNewService(Context context) {
@@ -26,7 +28,7 @@ public class ServiceStarter extends BroadcastReceiver {
         PendingIntent questionIntent = PendingIntent.getBroadcast(context, NOTIFICATION_CODE,
                 intent, PendingIntent.FLAG_CANCEL_CURRENT);
         long atual = Calendar.getInstance().getTimeInMillis();
-        long vintesegundos = 1000*60*20;
+        long vintesegundos = 1000*20;
         alarmMgr.set(AlarmManager.RTC_WAKEUP, atual+vintesegundos,  questionIntent);
     }
 }
