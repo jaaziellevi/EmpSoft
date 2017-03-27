@@ -4,13 +4,10 @@ import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -31,6 +28,9 @@ import com.google.gson.JsonParser;
 import java.util.HashMap;
 import java.util.Map;
 
+import static android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT;
+import static android.content.Intent.FLAG_ACTIVITY_SINGLE_TOP;
+
 
 public class RESTUtil {
 
@@ -39,6 +39,9 @@ public class RESTUtil {
     private RequestQueue requestQueue;
     private Context context;
     private AlertDialog.Builder builder;
+    private boolean erro500;
+    private boolean patch;
+
 
     public RESTUtil(RequestQueue requestQueue, int reqMethod, Context context) {
 
@@ -173,6 +176,7 @@ public class RESTUtil {
             IOSingleton singleton = IOSingleton.Instance();
             singleton.saveResponse(response);
 
+
             SharedPreferences prefs = context.getSharedPreferences("json", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putString("json",IOSingleton.Instance().getPureResponse());
@@ -200,6 +204,10 @@ public class RESTUtil {
         @Override
         public void onErrorResponse(VolleyError error) {
             String mensagem = "";
+            if (error.networkResponse.statusCode == 500) {
+                StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
+                requestQueue.add(request);
+            }
             if (error instanceof NoConnectionError){
                 mensagem = "Não há conexão disponível, tente novamente.";
                 showDialog(mensagem);
@@ -219,19 +227,22 @@ public class RESTUtil {
         }
     }
 
-    private static void showNotification(Context context) {
-        PendingIntent pi = PendingIntent.getActivity(context, 0, new Intent(context, Work4kits.class), 0);
-        Notification notification = new NotificationCompat.Builder(context)
-                .setTicker(context.getResources().getString(R.string.app_name))
-                .setSmallIcon(android.R.drawable.ic_popup_reminder)
-                .setContentTitle(context.getResources().getString(R.string.app_name))
-                .setContentIntent(pi)
-                .setOngoing(false)
-                .setAutoCancel(true)
-                .setContentText("Houve uma mudança nas suas vagas.")
-                .build();
-        NotificationManager notificationManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
-        notificationManager.notify(0, notification);
+    private void showNotification(Context context) {
+        Intent it = new Intent(context, Work4kits.class);
+        it.addFlags(FLAG_ACTIVITY_SINGLE_TOP);
+        PendingIntent pi = PendingIntent.getActivity(context, 0, it, 0);
+            Notification notification = new NotificationCompat.Builder(context)
+                    .setTicker(context.getResources().getString(R.string.app_name))
+                    .setSmallIcon(android.R.drawable.ic_popup_reminder)
+                    .setContentTitle(context.getResources().getString(R.string.app_name))
+                    .setContentIntent(pi)
+                    .setOngoing(false)
+                    .setAutoCancel(true)
+                    .setContentText("Houve uma mudança nas suas vagas.")
+                    .build();
+            NotificationManager notificationManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+            notificationManager.notify(0, notification);
+
     }
 
 

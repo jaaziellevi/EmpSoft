@@ -1,14 +1,21 @@
 package com.jaaziel.work4kits;
 
+import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -19,6 +26,7 @@ import com.android.volley.toolbox.Volley;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -33,9 +41,10 @@ public class Work4kits extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         prepareListData();
+
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_work4kits);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -51,6 +60,30 @@ public class Work4kits extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        refreshNotifications();
+    }
+
+    private void refreshNotifications() {
+        cancelService();
+
+
+        int NOTIFICATION_CODE = IOSingleton.Instance().getNOTIFICATION_CODE();
+        AlarmManager alarmMgr = (AlarmManager) Work4kits.this.getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(Work4kits.this, NotificationReceiver.class);
+        PendingIntent questionIntent = PendingIntent.getBroadcast(Work4kits.this, NOTIFICATION_CODE,
+                intent, PendingIntent.FLAG_CANCEL_CURRENT);
+        long atual = Calendar.getInstance().getTimeInMillis();
+        long vintesegundos = 1000*20;
+        alarmMgr.set(AlarmManager.RTC_WAKEUP, atual+vintesegundos,  questionIntent);
+    }
+
+    private void cancelService() {
+        int NOTIFICATION_CODE = IOSingleton.Instance().getNOTIFICATION_CODE();
+        AlarmManager service = (AlarmManager) Work4kits.this.getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(Work4kits.this, NotificationReceiver.class);
+        PendingIntent pending = PendingIntent.getBroadcast(Work4kits.this, NOTIFICATION_CODE, intent,
+                PendingIntent.FLAG_CANCEL_CURRENT);
+        service.cancel(pending);
     }
 
     @Override
@@ -90,6 +123,12 @@ public class Work4kits extends AppCompatActivity
     private void refresh() {
         Toast.makeText(Work4kits.this, "Atualizando...", Toast.LENGTH_LONG).show();
         prepareListData();
+    }
+
+    @Override
+    protected void onResume() {
+        prepareListData();
+        super.onResume();
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -140,8 +179,16 @@ public class Work4kits extends AppCompatActivity
         IOSingleton.Instance().setListDataChild(listDataChild);
 
         RESTUtil ut = new RESTUtil(Volley.newRequestQueue(Work4kits.this), Request.Method.GET, Work4kits.this);
-
-
     }
 
+    private void refreshCurrentFragment() {
+        Fragment frg = null;
+        frg = getSupportFragmentManager().findFragmentByTag("Fragment");
+        if (frg != null) {
+            final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.detach(frg);
+            ft.attach(frg);
+            ft.commit();
+        }
+    }
 }
