@@ -2,6 +2,7 @@ package com.jaaziel.work4kits;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -157,6 +158,16 @@ public class IOSingleton {
                 m.put("Status", "Rejeitado.");
             }
         }
+    }
+
+    public List<Map<String, String>> getTrabalhosAprovados() {
+        List<Map<String,String>> list = new ArrayList<>();
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("Status").equals("Aprovado.")) {
+                list.add(m);
+            }
+        }
+        return list;
     }
 
     public int getNOTIFICATION_CODE() {

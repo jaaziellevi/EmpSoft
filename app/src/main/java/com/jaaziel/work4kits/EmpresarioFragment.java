@@ -5,6 +5,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -36,13 +38,15 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.empresario_fragment, container, false);
         gridView = (GridView) view.findViewById(R.id.gridView);
+        setHasOptionsMenu(true);
 
         listVagas = IOSingleton.Instance().getVagasPendentes();
 
         listVagasStringFormated = new ArrayList<>();
 
         for (Map<String,String> m : listVagas){
-            listVagasStringFormated.add(m.get("Vaga") + "\n" + m.get("Usuário"));
+            listVagasStringFormated.add("Vaga: "+ m.get("Vaga") + "\n" +
+                    "Candidato: "+ m.get("Usuário"));
         }
 
         adapter = new ArrayAdapter<>(getContext(),
@@ -65,7 +69,8 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
         listVagasStringFormated = new ArrayList<>();
 
         for (Map<String,String> m : listVagas){
-            listVagasStringFormated.add(m.get("Vaga") + "\n" + m.get("Usuário"));
+            listVagasStringFormated.add("Vaga: "+ m.get("Vaga") + "\n" +
+                    "Candidato: "+ m.get("Usuário"));
         }
 
         adapter = new ArrayAdapter<>(getContext(),
@@ -116,4 +121,10 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
 
     }
 
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        MenuItem item=menu.findItem(R.id.action_notifications);
+        item.setVisible(false);
+        super.onPrepareOptionsMenu(menu);
+    }
 }

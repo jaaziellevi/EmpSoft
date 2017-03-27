@@ -1,12 +1,9 @@
 package com.jaaziel.work4kits;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -14,8 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -30,9 +25,11 @@ import java.util.List;
 public class Work4kits extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     private List<String> listDataHeader;
     private HashMap<String, List<String>> listDataChild;
     private ImageView refreshView;
+    private Menu mOptionsMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,16 +51,6 @@ public class Work4kits extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        refreshView = (ImageView) findViewById(R.id.imageView2);
-
-        refreshView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(Work4kits.this, "Atualizando...", Toast.LENGTH_LONG).show();
-                v.startAnimation(AnimationUtils.loadAnimation(Work4kits.this, R.anim.anim));
-                prepareListData();
-            }
-        });
     }
 
     @Override
@@ -80,6 +67,8 @@ public class Work4kits extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.work4kits, menu);
+        mOptionsMenu = menu;
+
         return true;
     }
 
@@ -89,9 +78,18 @@ public class Work4kits extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        switch (id){
+            case R.id.action_refresh:
+                refresh();
+        }
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void refresh() {
+        Toast.makeText(Work4kits.this, "Atualizando...", Toast.LENGTH_LONG).show();
+        prepareListData();
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
