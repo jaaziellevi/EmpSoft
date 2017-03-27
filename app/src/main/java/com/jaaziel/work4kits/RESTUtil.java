@@ -164,6 +164,7 @@ public class RESTUtil {
         @Override
         public void onResponse(String response) {
             StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
+            patch = true;
             requestQueue.add(request);
         }
     };
@@ -188,44 +189,48 @@ public class RESTUtil {
     private void refreshCurrentFragment() {
         Fragment frg = null;
         if (context instanceof Activity) {
-            frg = ((AppCompatActivity) context).getSupportFragmentManager().findFragmentByTag("Fragment");
-            if (frg != null) {
-                final FragmentTransaction ft = ((AppCompatActivity) context).getSupportFragmentManager().beginTransaction();
-                ft.detach(frg);
-                ft.attach(frg);
-                ft.commit();
-            }
-        } else {
+            if (!patch) {
+                frg = ((AppCompatActivity) context).getSupportFragmentManager().findFragmentByTag("Fragment");
+                if (frg != null) {
+                    final FragmentTransaction ft = ((AppCompatActivity) context).getSupportFragmentManager().beginTransaction();
+                    ft.detach(frg);
+                    ft.attach(frg);
+                    ft.commit();
+                }
+            } else {
                 Log.d("Contexto", String.valueOf(context.getClass()));
-        }
+            }
+            }
     }
 
     private final Response.ErrorListener onPostsError = new Response.ErrorListener() {
         @Override
         public void onErrorResponse(VolleyError error) {
             String mensagem = "";
-            if (error.networkResponse.statusCode == 500) {
-                StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
-                requestQueue.add(request);
+            if (error.networkResponse != null) {
+                if (error.networkResponse.statusCode == 500) {
+                    StringRequest request = new StringRequest(Request.Method.GET, ENDPOINT, onPostsLoaded, onPostsError);
+                    requestQueue.add(request);
+                }
             }
             if (error instanceof NoConnectionError){
                 mensagem = "Não há conexão disponível, tente novamente.";
-                showDialog(mensagem);
+//                showDialog(mensagem);
             }
             else if (error instanceof NetworkError) {
                 mensagem = "Erro na rede, tente novamente.";
-                showDialog(mensagem);
+//                showDialog(mensagem);
             }
         }
     };
 
-    private void showDialog(String mensagem) {
-        if (builder == null) {
-            builder = new AlertDialog.Builder(context);
-            builder.setMessage(mensagem);
-            builder.show();
-        }
-    }
+//    private void showDialog(String mensagem) {
+//        if (builder == null) {
+//            builder = new AlertDialog.Builder(context);
+//            builder.setMessage(mensagem);
+//            builder.show();
+//        }
+//    }
 
     private void showNotification(Context context) {
         Intent it = new Intent(context, Work4kits.class);
