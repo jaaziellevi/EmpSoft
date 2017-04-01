@@ -1,11 +1,15 @@
 [
     {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_work4kits.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\layout\\nav_header_work4kits.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -14,6 +18,10 @@
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -28,8 +36,16 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -40,12 +56,28 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandablelist_child.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\expandablelist_child.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\layout\\view.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -68,6 +100,10 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
     },
@@ -76,12 +112,36 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_work4kits.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\app_bar_work4kits.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -100,6 +160,10 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -112,16 +176,20 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
     },
     {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_work4kits.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\layout\\app_bar_work4kits.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -138,6 +206,10 @@
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -160,12 +232,24 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandablelist_group.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\expandablelist_group.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -192,6 +276,10 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -206,6 +294,10 @@
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -224,6 +316,10 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -232,12 +328,28 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empresario_fragment.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\empresario_fragment.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -252,6 +364,18 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vagaaceitadialog.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\vagaaceitadialog.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -260,12 +384,24 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_work4kits.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\nav_header_work4kits.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\view.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -276,12 +412,32 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vagadiallog.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\vagadiallog.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -298,6 +454,10 @@
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -324,8 +484,24 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -334,6 +510,14 @@
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -376,12 +560,36 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\usuario_comum_fragment.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\usuario_comum_fragment.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandablelist_child.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\layout\\expandablelist_child.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_work4kits.xml",
@@ -392,8 +600,16 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_work4kits.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\activity_work4kits.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_work4kits.xml",
@@ -404,12 +620,32 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -428,6 +664,10 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
@@ -440,8 +680,16 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_work4kits.xml",
@@ -454,5 +702,9 @@
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\layout\\content_main.xml"
     }
 ]

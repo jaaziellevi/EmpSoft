@@ -2,9 +2,10 @@
     android:id="@+id/gridView"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#73FFFFFF"
     android:columnWidth="100dp"
     android:gravity="center"
     android:numColumns="auto_fit"
-    android:stretchMode="columnWidth" >
+    android:stretchMode="columnWidth">
 
 </GridView>

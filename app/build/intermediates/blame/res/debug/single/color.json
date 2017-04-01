@@ -1,23 +1,7 @@
 [
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
@@ -28,36 +12,16 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -76,24 +40,32 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_error.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -116,16 +88,12 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
@@ -136,19 +104,127 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     }
 ]

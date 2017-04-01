@@ -4,14 +4,6 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
-    },
-    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
@@ -20,8 +12,8 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_manage.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_send.xml",
@@ -32,12 +24,56 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_gallery.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_gallery.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_send.xml",
@@ -48,16 +84,20 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_send.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
@@ -66,9 +106,5 @@
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]
