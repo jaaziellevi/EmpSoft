@@ -10,14 +10,15 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:fitsSystemWindows="false"
+        android:theme="@style/AlertDialog.AppCompat.Light">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay">
+            android:background="@drawable/cabecalho"
+            app:popupTheme="@style/AppTheme.NoActionBar">
 
 
             <ImageView
@@ -26,7 +27,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ic_autorenew_white_24dp" />
+                android:paddingRight="15dp"
+                app:srcCompat="@drawable/atualizar_logo" />
 
         </android.support.v7.widget.Toolbar>
 

@@ -4,8 +4,8 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
@@ -14,6 +14,82 @@
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim.xml",
+        "source": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\src\\main\\res\\anim\\anim.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -36,8 +112,8 @@
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
@@ -46,6 +122,10 @@
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -60,32 +140,24 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\123ec258e7eea4e5bf1c430c20882fac75317bee\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -100,28 +172,24 @@
         "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
+        "merged": "E:\\Documentos\\Computacao\\EmpSoft\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Jaaziel Levi\\.android\\build-cache\\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_in.xml"
-    },
-    {
-        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
         "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Arthur\\EmpSoft\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "D:\\Documents\\WORK4KITS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",

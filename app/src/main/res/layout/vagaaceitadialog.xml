@@ -1,33 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/activity_horizontal_margin">
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/analise_perfil" />
 
     <TextView
         android:id="@+id/vagaAceitaVaga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textAppearance="@android:style/TextAppearance.Large" />
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
 
     <TextView
         android:id="@+id/vagaAceitaUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
         android:text="TextView"
-        android:textAppearance="@android:style/TextAppearance.Large" />
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_below="@+id/vagaAceitaVaga"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/vagaAceitaOk"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aceita" />
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/background_button"
+        android:text="Aceita"
+        android:textColor="@android:color/background_light"
+        android:textSize="10pt"
+        android:typeface="monospace" />
 
     <Button
         android:id="@+id/vagaAceitaRecusa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rejeita" />
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/background_button"
+        android:text="Rejeita"
+        android:textColor="@android:color/background_light"
+        android:textSize="10pt"
+        android:typeface="monospace" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/foto"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignRight="@+id/vagaAceitaOk"
+        android:layout_alignEnd="@+id/vagaAceitaOk"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>

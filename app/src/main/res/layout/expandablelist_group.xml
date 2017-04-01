@@ -2,12 +2,19 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp" >
+    android:padding="8dp"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/tv_headder"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@android:style/TextAppearance.Medium" />
+        android:layout_height="46dp"
+        android:layout_weight="1.47"
+        android:background="@drawable/jobs_background"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#727376" />
 
 </LinearLayout>

@@ -1,82 +1,102 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:5:1-79
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:5:1-62
 	android:name
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:5:18-60
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:5:18-60
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:7:5-23:19
-MERGED from [com.android.support:design:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.volley:volley:1.0.0] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\AndroidManifest.xml:9:5-20
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:9:5-33:19
+MERGED from [com.android.support:design:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\123ec258e7eea4e5bf1c430c20882fac75317bee\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\a2e5566272526b8d566ef3ce338f6d11cf5245d4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\0173f1863c676561f2b4844e73025b7e54241efd\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\0a0129e5de0c3f9b9540e6a49d3551dc1e4081b2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\35b3e8292815f9add953187b7fd5b1a26428636d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\560a43438dc01e198b01a948956ad63a2c24a680\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\e879bdca7ddcbec05855b8b6879f40e79cf8cb7b\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\454c8948e83351206c24bd6938d497b861e692c2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\788e79284cf0395323805550573c84d7acffa068\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Jaaziel Levi\.android\build-cache\8e2ec96debf02dbc936c44e9fe63d21ed94df587\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:11:9-40
 	android:theme
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:14:9-65
 activity#com.jaaziel.work4kits.Work4kits
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:13:9-22:20
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:17:13-29
+	android:launchMode
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:18:13-43
 	android:theme
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:14:13-38
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:16:13-38
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:22:27-74
+receiver#com.jaaziel.work4kits.NotificationReceiver
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:25:19-55
+receiver#com.jaaziel.work4kits.ServiceStarter
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:27:9-31:20
+	android:name
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:27:19-49
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:28:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml:29:25-76
 uses-sdk
-INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.volley:volley:1.0.0] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\AndroidManifest.xml:7:5-43
+INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\91d10584f01a03e1e584fb2e51d0ce1a3674deb4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\123ec258e7eea4e5bf1c430c20882fac75317bee\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\a2e5566272526b8d566ef3ce338f6d11cf5245d4\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\0173f1863c676561f2b4844e73025b7e54241efd\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\0a0129e5de0c3f9b9540e6a49d3551dc1e4081b2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\35b3e8292815f9add953187b7fd5b1a26428636d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\560a43438dc01e198b01a948956ad63a2c24a680\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\e879bdca7ddcbec05855b8b6879f40e79cf8cb7b\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\e5d7371cbfe203f068b01cbe59c6bda58e2d8ebd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\454c8948e83351206c24bd6938d497b861e692c2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\788e79284cf0395323805550573c84d7acffa068\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Jaaziel Levi\.android\build-cache\8e2ec96debf02dbc936c44e9fe63d21ed94df587\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.2.1] C:\Arthur\EmpSoft\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Jaaziel Levi\.android\build-cache\123ec258e7eea4e5bf1c430c20882fac75317bee\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Arthur\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Documentos\Computacao\EmpSoft\EmpSoft\app\src\main\AndroidManifest.xml
