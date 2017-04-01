@@ -95,7 +95,7 @@ public class TrabalhoInfoFragment extends Fragment {
                 dialog.dismiss();
             }
         });
-
+        dialog.findViewById(R.id.vagaKit).setVisibility(View.INVISIBLE);
         dialog.findViewById(R.id.vagaAceita).setVisibility(View.INVISIBLE);
         dialog.show();
     }
