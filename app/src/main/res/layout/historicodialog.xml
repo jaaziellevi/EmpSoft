@@ -36,6 +36,8 @@
             android:id="@+id/listViewHistorico"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:divider="#000"
+            android:dividerHeight="2dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView3" />

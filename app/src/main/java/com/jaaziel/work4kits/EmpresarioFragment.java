@@ -21,6 +21,7 @@ import com.android.volley.Request;
 import com.android.volley.toolbox.Volley;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
@@ -199,10 +200,10 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
         ArrayList<String> historicoVagasList = new ArrayList<>();
         List<Map<String, String>> historicoVagas = IOSingleton.Instance().getHistorico();
 
-        for (Map<String,String> m : listVagas){
+        for (Map<String,String> m : historicoVagas){
             historicoVagasList.add("Vaga: "+ m.get("Vaga") + "\n" +
                     "Candidato: "+ m.get("Usuário") + "\n" +
-                    "Status: " + m.get("Status") + "\n" + "Data: xx/xx/xx");
+                    "Status: " + m.get("Status") + "\n" + "Data: 03/04/2017");
         }
 
         ListView historicoListView = (ListView) dialog.findViewById(R.id.listViewHistorico);
@@ -214,10 +215,9 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
             }
         });
 
-
         ArrayAdapter<String> historicoAdapter = new ArrayAdapter<>(getContext(),
-                android.R.layout.simple_list_item_1, listVagasStringFormated);
-        historicoListView.setAdapter(adapter);
+                android.R.layout.simple_list_item_1, historicoVagasList);
+        historicoListView.setAdapter(historicoAdapter);
 
         dialog.show();
 

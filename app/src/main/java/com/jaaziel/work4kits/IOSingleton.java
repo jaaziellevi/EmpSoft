@@ -148,7 +148,7 @@ public class IOSingleton {
     public List<Map<String,String>> getHistorico() {
         List<Map<String, String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Trabalho em andamento."))
+            if (m.get("Status").equals("Trabalho efetuado."))
                 list.add(m);
         }
         return list;
