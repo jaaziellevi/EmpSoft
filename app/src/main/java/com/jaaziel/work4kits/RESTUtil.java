@@ -63,7 +63,7 @@ public class RESTUtil {
         }
     }
 
-    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id, boolean b, Context context) {
+    public RESTUtil(RequestQueue requestQueue, int reqMethod, String id, String b, Context context) {
 
         this.requestQueue = requestQueue;
         this.context = context;
@@ -79,16 +79,18 @@ public class RESTUtil {
         checaMudanca();
     }
 
-    private void notificaVaga(String id, final boolean b) {
+    private void notificaVaga(String id, final String b) {
         StringRequest request = new StringRequest(Request.Method.PATCH, ENDPOINT +"/"+id, onPatch, onPostsError) {
 
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
-                if (b) {
-                    params.put("Status", "Aprovado.");
-                } else {
+                if (b.equals("APROVADO")) {
+                    params.put("Status", "Trabalho em andamento.");
+                } else if (b.equals("REJEITADO")) {
                     params.put("Status", "Rejeitado.");
+                } else if (b.equals("TRABALHO_CONFIRMADO")) {
+                    params.put("Status", "Trabalho efetuado.");
                 }
                 return params;
             }
@@ -112,8 +114,8 @@ public class RESTUtil {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
-                params.put("Status", "Solicitação enviada.");
-                params.put("Usuário", "Usuário Teste");
+                params.put("Status", "Esperando aprovação.");
+                params.put("Usuário", "Usuário Beta");
                 return params;
             }
 
@@ -215,16 +217,16 @@ public class RESTUtil {
             }
             if (error instanceof NoConnectionError){
                 mensagem = "Não há conexão disponível, tente novamente.";
-//                showDialog(mensagem);
+//                showAprovarDialog(mensagem);
             }
             else if (error instanceof NetworkError) {
                 mensagem = "Erro na rede, tente novamente.";
-//                showDialog(mensagem);
+//                showAprovarDialog(mensagem);
             }
         }
     };
 
-//    private void showDialog(String mensagem) {
+//    private void showAprovarDialog(String mensagem) {
 //        if (builder == null) {
 //            builder = new AlertDialog.Builder(context);
 //            builder.setMessage(mensagem);

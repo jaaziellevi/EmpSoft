@@ -1,5 +1,7 @@
 package com.jaaziel.work4kits;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -97,16 +99,27 @@ public class UsuarioComumFragment extends Fragment {
         int aprovados = IOSingleton.Instance().getTrabalhosAprovados().size();
         Drawable drawable = ContextCompat.getDrawable(getActivity(), R.drawable.ic_notifications_active_white_24dp);
 
-        if (aprovados > 0) {
+
+        SharedPreferences prefs = getContext().getSharedPreferences("json", Context.MODE_PRIVATE);
+        int aprovadosOld = prefs.getInt("aprovados" , 0);
+
+        if (aprovados >= 0) {
             notifItem.setIcon(drawable);
             notifItem.setTitle(String.valueOf(aprovados));
 
             TextView tv = (TextView) notifCount.findViewById(R.id.actionbar_notifcation_textview);
             tv.setText(String.valueOf(singleton.getTrabalhosAprovados().size()));
 
-            AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-            builder.setMessage("Você teve uma vaga aprovada, clique na notificação para ver mais");
-            builder.show();
+            prefs = getContext().getSharedPreferences("json", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.commit();
+            Log.d("Aprovados: ", aprovados+"ao: "+aprovadosOld);
+            if (aprovados > aprovadosOld) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                builder.setMessage("Você teve uma vaga aprovada, clique na notificação para ver mais");
+                builder.show();
+            }
+
         }
 
         notifItem.getActionView().findViewById(R.id.badgeImageView).setOnClickListener(new View.OnClickListener() {

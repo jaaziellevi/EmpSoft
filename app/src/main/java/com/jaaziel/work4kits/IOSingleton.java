@@ -96,7 +96,7 @@ public class IOSingleton {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(id)) {
                 m.put("Status", "Solicitação enviada.");
-                m.put("Usuário", "Usuário Teste");
+                m.put("Usuário", "Usuário Beta");
             }
         }
     }
@@ -138,7 +138,8 @@ public class IOSingleton {
     public List<Map<String, String>> getVagasPendentes() {
         List<Map<String, String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Solicitação enviada."))
+            if (m.get("Status").equals("Esperando aprovação.") ||
+                    m.get("Status").equals("Trabalho em andamento.") )
                 list.add(m);
         }
         return list;
@@ -147,7 +148,7 @@ public class IOSingleton {
     public void aceitaVaga(String id) {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(id)) {
-                m.put("Status", "Aprovado.");
+                m.put("Status", "Trabalho em andamento.");
             }
         }
     }
@@ -163,7 +164,7 @@ public class IOSingleton {
     public List<Map<String, String>> getTrabalhosAprovados() {
         List<Map<String,String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
-            if (m.get("Status").equals("Aprovado.")) {
+            if (m.get("Status").equals("Trabalho em andamento.")) {
                 list.add(m);
             }
         }
@@ -180,5 +181,13 @@ public class IOSingleton {
 
     public boolean temMudanca() {
         return mudanca;
+    }
+
+    public void confirmaTrabalho(String vagaId) {
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("id").equals(vagaId)) {
+                m.put("Status", "Trabalho efetuado.");
+            }
+        }
     }
 }

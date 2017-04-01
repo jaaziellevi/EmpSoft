@@ -103,12 +103,15 @@ public class GridAdapter extends BaseAdapter {
         String descricao = details.get("Descrição");
         String horario = details.get("Horário");
         String empresa = details.get("Empresa");
+        String kit = details.get("Kit");
 
 
         ((TextView) dialog.findViewById(R.id.vagaNome)).setText("Vaga: " + nomeVaga);
         ((TextView) dialog.findViewById(R.id.vagaEmpresa)).setText("Empresa: " + empresa);
         ((TextView) dialog.findViewById(R.id.vagaHorario)).setText("Horário: " + horario);
         ((TextView) dialog.findViewById(R.id.vagaDescricao)).setText("Descrição: " + descricao);
+        ((TextView) dialog.findViewById(R.id.vagaKit)).setText(kit);
+
 
         dialog.findViewById(R.id.vagaAceita).setOnClickListener(new View.OnClickListener() {
             @Override
