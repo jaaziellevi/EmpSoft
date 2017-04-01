@@ -102,6 +102,14 @@ public class Work4kits extends AppCompatActivity
         getMenuInflater().inflate(R.menu.work4kits, menu);
         mOptionsMenu = menu;
 
+        MenuItem notifications=menu.findItem(R.id.action_notifications);
+        MenuItem historic=menu.findItem(R.id.action_historico);
+
+        notifications.setVisible(false);
+        historic.setVisible(false);
+
+        super.onPrepareOptionsMenu(menu);
+
         return true;
     }
 
@@ -191,4 +199,6 @@ public class Work4kits extends AppCompatActivity
             ft.commit();
         }
     }
+
+
 }

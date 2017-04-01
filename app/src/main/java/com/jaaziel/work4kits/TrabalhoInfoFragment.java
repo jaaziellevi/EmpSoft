@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -105,7 +106,6 @@ public class TrabalhoInfoFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
 
-
         int id = item.getItemId();
         if (id == R.id.action_notifications){
             Fragment newFragment = new UsuarioComumFragment();
@@ -115,4 +115,11 @@ public class TrabalhoInfoFragment extends Fragment {
         return true;
     }
 
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        MenuItem notifications = menu.findItem(R.id.action_notifications);
+
+        notifications.setVisible(true);
+        super.onPrepareOptionsMenu(menu);
+    }
 }

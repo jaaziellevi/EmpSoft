@@ -139,7 +139,16 @@ public class IOSingleton {
         List<Map<String, String>> list = new ArrayList<>();
         for (Map<String, String> m : getResponse()) {
             if (m.get("Status").equals("Esperando aprovação.") ||
-                    m.get("Status").equals("Trabalho em andamento.") )
+                    m.get("Status").equals("Trabalho em andamento."))
+                list.add(m);
+        }
+        return list;
+    }
+
+    public List<Map<String,String>> getHistorico() {
+        List<Map<String, String>> list = new ArrayList<>();
+        for (Map<String, String> m : getResponse()) {
+            if (m.get("Status").equals("Trabalho em andamento."))
                 list.add(m);
         }
         return list;

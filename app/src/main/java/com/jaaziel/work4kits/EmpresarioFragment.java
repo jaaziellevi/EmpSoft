@@ -24,6 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static com.jaaziel.work4kits.R.layout.view;
+
 /**
  * Created by Arthur on 18/03/2017.
  *
@@ -163,8 +165,62 @@ public class EmpresarioFragment extends android.support.v4.app.Fragment {
 
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
-        MenuItem item=menu.findItem(R.id.action_notifications);
-        item.setVisible(false);
+        MenuItem historic = menu.findItem(R.id.action_historico);
+
+        historic.setVisible(true);
         super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        switch (id){
+            case R.id.action_historico:
+                historicoDialog(getContext());
+        }
+
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void historicoDialog(final Context context) {
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.historicodialog);
+
+        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+        lp.copyFrom(dialog.getWindow().getAttributes());
+        lp.width = WindowManager.LayoutParams.WRAP_CONTENT;
+        lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        dialog.getWindow().setAttributes(lp);
+
+        ArrayList<String> historicoVagasList = new ArrayList<>();
+        List<Map<String, String>> historicoVagas = IOSingleton.Instance().getHistorico();
+
+        for (Map<String,String> m : listVagas){
+            historicoVagasList.add("Vaga: "+ m.get("Vaga") + "\n" +
+                    "Candidato: "+ m.get("Usuário") + "\n" +
+                    "Status: " + m.get("Status") + "\n" + "Data: xx/xx/xx");
+        }
+
+        ListView historicoListView = (ListView) dialog.findViewById(R.id.listViewHistorico);
+
+        dialog.findViewById(R.id.historicoVolta).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+
+        ArrayAdapter<String> historicoAdapter = new ArrayAdapter<>(getContext(),
+                android.R.layout.simple_list_item_1, listVagasStringFormated);
+        historicoListView.setAdapter(adapter);
+
+        dialog.show();
+
+
     }
 }

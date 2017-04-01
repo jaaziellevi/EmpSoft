@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trabalhos concluídos"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <Button
+        android:id="@+id/historicoVolta"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background_button"
+        android:text="Voltar"
+        android:textColor="@android:color/background_light"
+        android:textSize="10pt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+        <ListView
+            android:id="@+id/listViewHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

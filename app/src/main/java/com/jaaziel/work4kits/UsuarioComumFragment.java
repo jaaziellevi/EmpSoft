@@ -128,6 +128,10 @@ public class UsuarioComumFragment extends Fragment {
                 onOptionsItemSelected(notifItem);
             }
         });
+
+        MenuItem notifications = menu.findItem(R.id.action_notifications);
+
+        notifications.setVisible(true);
     }
 
     @Override
