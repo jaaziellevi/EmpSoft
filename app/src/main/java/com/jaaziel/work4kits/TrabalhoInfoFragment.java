@@ -122,4 +122,5 @@ public class TrabalhoInfoFragment extends Fragment {
         notifications.setVisible(true);
         super.onPrepareOptionsMenu(menu);
     }
+
 }

@@ -112,6 +112,7 @@ public class UsuarioComumFragment extends Fragment {
 
             prefs = getContext().getSharedPreferences("json", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = prefs.edit();
+            editor.putInt("aprovados", aprovados);
             editor.commit();
             Log.d("Aprovados: ", aprovados+"ao: "+aprovadosOld);
             if (aprovados > aprovadosOld) {

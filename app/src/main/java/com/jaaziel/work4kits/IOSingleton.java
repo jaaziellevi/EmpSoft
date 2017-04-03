@@ -195,6 +195,7 @@ public class IOSingleton {
     public void confirmaTrabalho(String vagaId) {
         for (Map<String, String> m : getResponse()) {
             if (m.get("id").equals(vagaId)) {
+
                 m.put("Status", "Trabalho efetuado.");
             }
         }
