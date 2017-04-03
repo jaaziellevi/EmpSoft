@@ -3,8 +3,10 @@ package com.jaaziel.work4kits;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -38,9 +40,13 @@ public class Work4kits extends AppCompatActivity
     private HashMap<String, List<String>> listDataChild;
     private ImageView refreshView;
     private Menu mOptionsMenu;
+    private boolean isOnTop = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        isOnTop = true;
+
         prepareListData();
 
         super.onCreate(savedInstanceState);
@@ -48,6 +54,10 @@ public class Work4kits extends AppCompatActivity
         setContentView(R.layout.activity_work4kits);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        IntentFilter intentfilter = new IntentFilter();
+        intentfilter.addAction("updateFragment");
+        registerReceiver(intentReceiver, intentfilter);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -135,6 +145,8 @@ public class Work4kits extends AppCompatActivity
 
     @Override
     protected void onResume() {
+        isOnTop = true;
+
         prepareListData();
         super.onResume();
     }
@@ -200,5 +212,23 @@ public class Work4kits extends AppCompatActivity
         }
     }
 
+    @Override
+    protected void onPause() {
+        isOnTop = false;
 
+        super.onPause();
+    }
+
+    public BroadcastReceiver intentReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            //recebe o broadcast do question receiver e checa se o homefragment está aberto na frente
+            //se estiver ele vai lá e atualiza para a questão aparecer na lista inicial
+            if (isOnTop) {
+                refreshCurrentFragment();
+                prepareListData();
+
+            }
+        }
+    };
 }

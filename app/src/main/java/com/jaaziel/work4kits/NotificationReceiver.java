@@ -28,6 +28,11 @@ public class NotificationReceiver extends BroadcastReceiver {
         Log.d("NotificationService", "Notificação recebida");
         createNewService(context);
         checaMudanca(context);
+
+        //manda broadcast para MainActivity
+        Intent broadCastIntent = new Intent();
+        broadCastIntent.setAction("updateFragment");
+        context.sendBroadcast(broadCastIntent);
     }
 
     private void checaMudanca(Context context) {
